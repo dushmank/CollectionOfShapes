@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		272527AB219E361000BDAD7B /* ShapesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272527AA219E361000BDAD7B /* ShapesTableViewController.swift */; };
+		272527B2219E4C3300BDAD7B /* ShapesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272527B1219E4C3300BDAD7B /* ShapesCollectionView.swift */; };
+		272527B7219E4CFE00BDAD7B /* CircleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272527B6219E4CFE00BDAD7B /* CircleModel.swift */; };
+		272527B9219E4D0E00BDAD7B /* RectangleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272527B8219E4D0E00BDAD7B /* RectangleModel.swift */; };
+		272527BB219E4D1A00BDAD7B /* SquareModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272527BA219E4D1A00BDAD7B /* SquareModel.swift */; };
+		272527BF219E4E4A00BDAD7B /* ShapeViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272527BE219E4E4A00BDAD7B /* ShapeViewModels.swift */; };
+		272527C7219E55AF00BDAD7B /* ShapeTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272527C6219E55AF00BDAD7B /* ShapeTypeModel.swift */; };
+		272527C9219E674500BDAD7B /* ShapesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272527C8219E674500BDAD7B /* ShapesCollectionViewCell.swift */; };
+		272527CB219E675800BDAD7B /* ShapesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272527CA219E675800BDAD7B /* ShapesTableViewCell.swift */; };
+		272527CF219E781C00BDAD7B /* ShapeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272527CE219E781C00BDAD7B /* ShapeModels.swift */; };
 		27596A48219E28C200DDA6E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27596A47219E28C200DDA6E0 /* AppDelegate.swift */; };
-		27596A4A219E28C200DDA6E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27596A49219E28C200DDA6E0 /* ViewController.swift */; };
-		27596A4D219E28C200DDA6E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27596A4B219E28C200DDA6E0 /* Main.storyboard */; };
 		27596A4F219E28C300DDA6E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27596A4E219E28C300DDA6E0 /* Assets.xcassets */; };
 		27596A52219E28C300DDA6E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27596A50219E28C300DDA6E0 /* LaunchScreen.storyboard */; };
 		27596A5D219E28C300DDA6E0 /* CollectionOfShapesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27596A5C219E28C300DDA6E0 /* CollectionOfShapesTests.swift */; };
@@ -34,10 +42,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		272527AA219E361000BDAD7B /* ShapesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesTableViewController.swift; sourceTree = "<group>"; };
+		272527B1219E4C3300BDAD7B /* ShapesCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesCollectionView.swift; sourceTree = "<group>"; };
+		272527B6219E4CFE00BDAD7B /* CircleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleModel.swift; sourceTree = "<group>"; };
+		272527B8219E4D0E00BDAD7B /* RectangleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleModel.swift; sourceTree = "<group>"; };
+		272527BA219E4D1A00BDAD7B /* SquareModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareModel.swift; sourceTree = "<group>"; };
+		272527BE219E4E4A00BDAD7B /* ShapeViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeViewModels.swift; sourceTree = "<group>"; };
+		272527C6219E55AF00BDAD7B /* ShapeTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeTypeModel.swift; sourceTree = "<group>"; };
+		272527C8219E674500BDAD7B /* ShapesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesCollectionViewCell.swift; sourceTree = "<group>"; };
+		272527CA219E675800BDAD7B /* ShapesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesTableViewCell.swift; sourceTree = "<group>"; };
+		272527CE219E781C00BDAD7B /* ShapeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeModels.swift; sourceTree = "<group>"; };
 		27596A44219E28C200DDA6E0 /* CollectionOfShapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionOfShapes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27596A47219E28C200DDA6E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27596A49219E28C200DDA6E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		27596A4C219E28C200DDA6E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27596A4E219E28C300DDA6E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27596A51219E28C300DDA6E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27596A53219E28C300DDA6E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,6 +90,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		272527AC219E423400BDAD7B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				272527AA219E361000BDAD7B /* ShapesTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		272527B0219E4C0700BDAD7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				272527CA219E675800BDAD7B /* ShapesTableViewCell.swift */,
+				272527B1219E4C3300BDAD7B /* ShapesCollectionView.swift */,
+				272527C8219E674500BDAD7B /* ShapesCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		272527B3219E4CB300BDAD7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				272527C6219E55AF00BDAD7B /* ShapeTypeModel.swift */,
+				272527BA219E4D1A00BDAD7B /* SquareModel.swift */,
+				272527B6219E4CFE00BDAD7B /* CircleModel.swift */,
+				272527B8219E4D0E00BDAD7B /* RectangleModel.swift */,
+				272527CE219E781C00BDAD7B /* ShapeModels.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		272527B5219E4CC000BDAD7B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				272527BE219E4E4A00BDAD7B /* ShapeViewModels.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		27596A3B219E28C200DDA6E0 = {
 			isa = PBXGroup;
 			children = (
@@ -98,8 +152,10 @@
 			isa = PBXGroup;
 			children = (
 				27596A47219E28C200DDA6E0 /* AppDelegate.swift */,
-				27596A49219E28C200DDA6E0 /* ViewController.swift */,
-				27596A4B219E28C200DDA6E0 /* Main.storyboard */,
+				272527B3219E4CB300BDAD7B /* Model */,
+				272527B0219E4C0700BDAD7B /* View */,
+				272527B5219E4CC000BDAD7B /* ViewModel */,
+				272527AC219E423400BDAD7B /* Controller */,
 				27596A4E219E28C300DDA6E0 /* Assets.xcassets */,
 				27596A50219E28C300DDA6E0 /* LaunchScreen.storyboard */,
 				27596A53219E28C300DDA6E0 /* Info.plist */,
@@ -231,7 +287,6 @@
 			files = (
 				27596A52219E28C300DDA6E0 /* LaunchScreen.storyboard in Resources */,
 				27596A4F219E28C300DDA6E0 /* Assets.xcassets in Resources */,
-				27596A4D219E28C200DDA6E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +311,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27596A4A219E28C200DDA6E0 /* ViewController.swift in Sources */,
+				272527CB219E675800BDAD7B /* ShapesTableViewCell.swift in Sources */,
+				272527C7219E55AF00BDAD7B /* ShapeTypeModel.swift in Sources */,
+				272527B7219E4CFE00BDAD7B /* CircleModel.swift in Sources */,
+				272527C9219E674500BDAD7B /* ShapesCollectionViewCell.swift in Sources */,
+				272527B2219E4C3300BDAD7B /* ShapesCollectionView.swift in Sources */,
+				272527AB219E361000BDAD7B /* ShapesTableViewController.swift in Sources */,
+				272527CF219E781C00BDAD7B /* ShapeModels.swift in Sources */,
+				272527B9219E4D0E00BDAD7B /* RectangleModel.swift in Sources */,
+				272527BB219E4D1A00BDAD7B /* SquareModel.swift in Sources */,
+				272527BF219E4E4A00BDAD7B /* ShapeViewModels.swift in Sources */,
 				27596A48219E28C200DDA6E0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +357,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		27596A4B219E28C200DDA6E0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				27596A4C219E28C200DDA6E0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		27596A50219E28C300DDA6E0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -435,6 +491,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 44JFX5CKGP;
 				INFOPLIST_FILE = CollectionOfShapes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +510,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 44JFX5CKGP;
 				INFOPLIST_FILE = CollectionOfShapes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
